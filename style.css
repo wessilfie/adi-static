@@ -8,7 +8,7 @@
 }
 
 body {
-	overflow: hidden;
+	/* overflow: hidden; */
 	background-color: #59ACFF;
 	letter-spacing: -0.015em;
 
@@ -30,6 +30,7 @@ body {
 	background-image: url("img/c.jpg");
 	background-size: 100%;
 }
+
 #adi-footer {
 	background-color: white;
 	position: fixed;
@@ -88,6 +89,7 @@ div.browser {
   width: 70%;
   opacity: .85;
 }
+
 div.browser div.chrome {
   background: #59ACFF;
   height: 40px;
@@ -185,7 +187,13 @@ div.browser p {
 }
 #footer-credit {
 	padding-left: 20px;
-	font-size: 0.5em;
+	padding-top: 15px;
+	font-size: 1em;
+}
+
+.fab {
+	font-size: 2em;
+	color: black;
 }
 /* handling bootstrap dropdown showing off screen */
 li.dropdown:last-child .dropdown-menu {
